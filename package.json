@@ -1,0 +1,23 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "Crud mongo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node cod/app.js",
+    "dev": "nodemon cod/app.js"
+  },
+  "author": "Maria Camila Tabarez Garcia",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.10.1",
+    "mongose": "0.0.2-security",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
